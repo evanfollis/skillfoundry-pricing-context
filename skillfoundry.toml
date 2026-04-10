@@ -4,7 +4,14 @@ name = "Pricing Context"
 agent_id = "pricing"
 
 [frontdoor]
-pinned_paths = ['README.md', 'memory/mission.md', 'memory/profiles/pricing.md']
+pinned_paths = [
+  'README.md',
+  'memory/mission.md',
+  'memory/profiles/pricing.md',
+  'memory/findings/launchpad_lint_value_model.md',
+  'memory/decisions/initial_pricing_strategy.md',
+  'memory/plans/price_validation_loop.md'
+]
 discoverable_paths = ['bundles', 'memory', 'artifacts']
 
 [promotion_policy]

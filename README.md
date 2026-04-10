@@ -8,3 +8,6 @@ and go, but this context lineage remains the durable working mind.
 
 - `memory/mission.md`
 - `memory/profiles/pricing.md`
+- `memory/findings/launchpad_lint_value_model.md`
+- `memory/decisions/initial_pricing_strategy.md`
+- `memory/plans/price_validation_loop.md`

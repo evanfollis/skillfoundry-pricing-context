@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "bundle_id": "launchpad-lint-pricing-v1",
+  "purpose": "Initial pricing recommendation and validation frame for Launchpad Lint.",
+  "owners": [
+    {
+      "name": "Skillfoundry Pricing",
+      "contact": "agent://pricing"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "doc",
+      "locator": "skillfoundry-designer-context://bundles/briefs/launchpad-lint-brief-v1.json",
+      "captured_at": "2026-04-06T00:00:00Z",
+      "notes": "Design brief for the first external product candidate."
+    },
+    {
+      "kind": "doc",
+      "locator": "skillfoundry-growth-context://memory/findings/agenticmarket_account_state.md",
+      "captured_at": "2026-04-06T00:00:00Z",
+      "notes": "Marketplace state and fixed per-call pricing constraint."
+    },
+    {
+      "kind": "doc",
+      "locator": "skillfoundry-pricing-context://memory/findings/launchpad_lint_value_model.md",
+      "captured_at": "2026-04-06T00:00:00Z",
+      "notes": "Value model and price sensitivity framing."
+    }
+  ],
+  "content": [
+    {
+      "id": "recommended-price",
+      "type": "summary",
+      "body": "Initial recommendation: `$0.09` per successful call, assuming a typical first-use flow of one audit call and one launch-package draft call.",
+      "source_refs": [1, 2]
+    },
+    {
+      "id": "pricing-rationale",
+      "type": "fact",
+      "body": "This price is intended to preserve low-friction first-use while still signaling that the product provides real workflow leverage.",
+      "source_refs": [2]
+    },
+    {
+      "id": "packaging-rule",
+      "type": "instruction",
+      "body": "Do not add tiers or freemium complexity in V1. Use the native per-call model and learn from real usage first.",
+      "source_refs": [1, 2]
+    },
+    {
+      "id": "validation-loop",
+      "type": "constraint",
+      "body": "Judge the price against install-to-first-paid-call, first useful session completion, and repeat usage, not against abstract willingness-to-pay claims.",
+      "source_refs": [2]
+    }
+  ],
+  "promotion": {
+    "status": "candidate",
+    "reviewed_at": "2026-04-06T00:00:00Z",
+    "compatibility": "additive",
+    "notes": "First pricing recommendation for Launchpad Lint under AgenticMarket's fixed per-call model."
+  }
+}
