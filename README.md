@@ -11,3 +11,10 @@ and go, but this context lineage remains the durable working mind.
 - `memory/findings/launchpad_lint_value_model.md`
 - `memory/decisions/initial_pricing_strategy.md`
 - `memory/plans/price_validation_loop.md`
+
+## Lifecycle and verification
+
+Maintained, not currently an independently deployed service. The fastest
+complete contract check is `make check`. See
+[docs/architecture.md](docs/architecture.md) for authority boundaries and the
+dated prompt-governance and runtime-path exceptions.
